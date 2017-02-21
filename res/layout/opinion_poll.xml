@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="18dp"
+    android:background="#ffffff"
+    
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp" >
+    
+       <ListView
+        android:id="@+id/listAllFeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:background="#ffffff"
+        android:divider="@null"
+        android:dividerHeight="6dp"
+        android:scrollbars="none"
+        android:stackFromBottom="false"
+        >
+    </ListView>
+</LinearLayout>
